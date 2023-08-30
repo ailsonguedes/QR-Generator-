@@ -27,10 +27,10 @@ def index():
             qr_code_io,
             mimetype="image/png",
             as_attachment=True,
-            download_name="qrcode.png"
+            download_name="qrcode.png",
         )
     
     return render_template('index.html')
-
+    
 if __name__ == '__main__':
     app.run(debug=True)
