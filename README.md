@@ -20,4 +20,4 @@ Esse estudo foi feito utilizando **flask**, **html** e **css**.
 
 ## 💻 Como executar o código
 
-- Ainda em produção
+- Site:
