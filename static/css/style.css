@@ -165,7 +165,7 @@ a {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .input-1 {
     width: 350px;
   }
