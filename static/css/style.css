@@ -182,6 +182,7 @@ a {
   flex-wrap: wrap;
  }
  .h2, .button-1, .input-1 {
+    display: flexbox;
  }
 }
 
