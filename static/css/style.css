@@ -163,15 +163,19 @@ a {
     display: flex;
   }
 
+  .input-1 {
+    width: 400px;
+  }
+
 }
 
 @media (max-width: 500px) {
   .input-1 {
-    width: 350px;
+    width: 200px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .button-1 {
     display: flexbox;
   }
