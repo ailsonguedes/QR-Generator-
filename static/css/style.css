@@ -69,7 +69,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
     color: #6991C7;
 }
@@ -99,17 +99,6 @@ input {
     width: 300px;
 }
 
-/*
-button {
-    background-color: #97C8EB;
-    border: 2px, #3AAFB9;
-    color: #092327;
-    font-size: 20px;
-    border-radius: 8px;
-    width: 300px;
-    height: 40px;
-} */
-
 .footer-div {
     text-align: center;
     margin-top: 5%;
@@ -134,7 +123,7 @@ a {
   box-sizing: border-box;
   color: #092327;
   cursor: pointer;
-  display: inline-block;
+  display: flexbox;
   font-family: Neucha, sans-serif;
   font-size: 1rem;
   line-height: 23px;
@@ -161,3 +150,38 @@ a {
 .button-1:focus {
   box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
 }
+
+@media (max-width: 1366px) {
+  .h1 {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .h2 {
+    display: flex;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .input-1 {
+    width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-1 {
+    display: flexbox;
+  }
+}
+
+@media (max-width: 1500px) {
+ .input-button-div{
+  flex-wrap: wrap;
+ }
+ .h2, .button-1, .input-1 {
+ }
+}
+
