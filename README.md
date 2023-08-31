@@ -20,4 +20,4 @@ Esse estudo foi feito utilizando **flask**, **html** e **css**.
 
 ## 💻 Como executar o código
 
-- Site: https://web-production-56d8.up.railway.app/
+- Site: https://qrgen.up.railway.app/
