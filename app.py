@@ -1,15 +1,18 @@
+# Imports
 import os
 import qrcode
 from flask import Flask, render_template, request, send_file
 from io import BytesIO
 
+# path of index.html
 template_dir = os.path.abspath('./templates')
-
+# setting up the app
 app = Flask(__name__, template_folder=template_dir)
-
+# secret key for app
 app.config['SECRET_KEY'] = 'dafqdafqdafq'
-
+# setting up decorators to select the web path and methods in use
 @app.route('/', methods=['GET', 'POST'])
+# index app structure
 def index():
     if request.method == 'POST':
         data = request.form.get('data')
