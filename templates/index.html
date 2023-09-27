@@ -1,41 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./static/css/style.css">
-        <title>QR Code Generator</title>
-    </head>
-    <body>
-    <div class="header-div">
+{% extends "model-page.html" %}
 
-        <form class="buttonsHeaderF1" action="/" method="GET">
+{% block content %}
 
-            <h1>Logo</h1> 
-            <button class="buttonHeader1" type="button">Documentation</button>
-            <button class="buttonHeader2" type="button">Help</button>
-            <button class="buttonHeader3" type="button">Donate</button>
-            
-            <button class="buttonHeader4" type="button" onclick="window.location.href='{{ url_for( 'gitPage') }}';">GitHub</button>
-            
+    <form class="form-container" action="/" method="POST"> 
 
-        </form>
-
-
-    </div>
-        <form class="form-container" action="/" method="POST"> 
-
-            <div class="input-button-div">
-                <h2 class="h2">Submit URL</h2> <br><br>
-                <input class="input-1" type="text" id="iptBox" name="data"><br><br>
-                <button class="button-1" type="submit" value="Submit" name="submitQr">QR Gen</button>
-            </div>
-
-        </form> <br><br>
-        
-        <div class="footer-div"> 
-            <a class="footer-a" href="https://github.com/ailsonguedes" target="_blank">&copy; Powered By Ailson Guedes</a>
+        <div class="input-button-div">
+            <h2 class="h2i">Submit URL</h2> <br><br>
+            <input class="input-1" type="text" id="iptBox" name="data"><br><br>
+            <button class="button-1" type="submit" value="Submit" name="submitQr">QR Gen</button>
         </div>
-    </body>
-</html>
+
+    </form> <br><br>
+
+{% endblock %}

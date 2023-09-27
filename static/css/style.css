@@ -34,6 +34,29 @@ h1{
   color: #29335C;
 }
 
+.divDocAll{
+  text-align: center;
+}
+
+.h2i {
+  color: #252E54;
+  text-align: left;
+  margin-left: 25%;
+  margin-bottom: 0%;
+}
+
+.h2d {
+  color: #252E54;
+  margin-bottom: 0px;
+  margin-top: 2px;
+}
+
+.h3 {
+  color: #252E54;
+  text-align: left;
+  margin-bottom: 0%;
+}
+
 .buttonsHeaderF1{
     margin-bottom: 50%;
     text-align: center;
@@ -112,16 +135,37 @@ h1{
   color: #E4572E; /* Cor de fundo ao passar o mouse */
 }
 
+.buttonsHeaderF2{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-align: right;
+}
+
+.buttonReturn{
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #E4572E; /* Cor de fundo */
+  color: #FBFBF2; /* Cor do texto */
+  text-decoration: none; /* Remova sublinhado padrão em links */
+  border: none;
+  border-radius: 5px; /* Cantos arredondados */
+  cursor: pointer; /* Transforma o cursor em uma mão ao passar por cima */
+  font-size: 16px;
+  box-shadow:0px 0px 8px rgba(0,0,0,.6);
+  font-weight: bold;
+  transition: background-color 0.3s; 
+}
+
+.buttonReturn:hover {
+  background-color: #669BBC; /* Cor de fundo ao passar o mouse */
+}
+
 .form-container{
       margin-top: 10%;
       text-align: center;
-}
-
-.h2 {
-  color: #252E54;
-  text-align: left;
-  margin-left: 25%;
-  margin-bottom: 0%;
 }
 
 input {

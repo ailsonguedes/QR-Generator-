@@ -1,0 +1,29 @@
+{% extends "model-page.html" %}
+
+{% block body_classes %}docs{% endblock %}
+{% block content %}
+
+<div class="divDocAll">
+
+    <form class="buttonsHeaderF2" action="/" method="GET"> 
+        <button class="buttonReturn" type="button" onClick="window.location.href='{{ url_for( 'mainPage') }}';">Return</button> 
+    </form>
+
+    <h2 class="h2d">Documentation</h2>
+
+    <div class="divDocInfo"> 
+        <h3>🔧 Tools</h3>
+            <p1>Flask: It is a python micro framework web to allow the user to build some simple and flexible web apps.</p1><br>
+            <p2>HTML: The main language used to create webpages. It is a structural basis of any webpage and is interpreted for browsers to show us visual and interactive contents.</p2><br>
+            <p3>CSS: It is a language used to control and presentation of visual styles of webpages wrote in HTML and XML.</p3><br><br>
+        <h3>⚙️ How It Works</h3>
+            <p1>The website have only one input and one button (QR Gen).</p1><br>
+            <p2>In the input box, paste the link that you want to transform in a qr code.</p2><br>
+            <p3>Click in the button (QR Gen) to generate your qr code.</p3><br>
+            <p4>The qr code will be downloaded in your web brownser</p4><br><br>
+        <h3>💻 How To Run</h3>
+            <p1>Site: https://qrgen.up.railway.app/</p1><br><br>
+    </div>
+
+</div>   
+{% endblock %}
