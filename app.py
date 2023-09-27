@@ -1,7 +1,7 @@
 # Imports
 import os
 import qrcode
-from flask import Flask, render_template, request, send_file, redirect
+from flask import Flask, render_template, request, send_file, redirect, url_for
 from io import BytesIO
 
 # path of index.html
@@ -35,7 +35,7 @@ def index():
     
     return render_template('index.html')
 
-@app.route('/github')
+@app.route('/github/', methods=['GET'])
 def gitPage():
     return redirect('https://github.com/ailsonguedes/QR-Generator-/tree/main')
 
