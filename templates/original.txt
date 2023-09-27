@@ -8,21 +8,13 @@
         <title>QR Code Generator</title>
     </head>
     <body>
-    <div class="header-div">
 
-        <form class="buttonsHeader" action="/" method="get">
-            <h1>Logo</h1> 
-            <button id="btnH1" class="buttonHeader1">GitHub</button>
-            <button class="buttonHeader2">Documentation</button>
-            <button class="buttonHeader3">Help</button>
-            <button class="buttonHeader4">Donate</button>
-        </form>
+        <h1>QR Code Generator</h1> <br><br>
 
-    </div>
         <form class="form-container" action="/" method="post"> 
 
             <div class="input-button-div">
-                <h2 class="h2">Submit URL</h2> <br><br>
+                <h2 class="h2">Digite Abaixo o Link que você deseja transformar em QR Code.</h2> <br><br>
                 <input class="input-1" type="text" id="iptBox" name="data"><br><br>
                 <button class="button-1" type="submit" value="Submit" name="submitQr">QR Gen</button>
             </div>
@@ -30,7 +22,7 @@
         </form> <br><br>
         
         <div class="footer-div"> 
-            <a class="footer-a" href="https://github.com/ailsonguedes" target="_blank">Powered By Ailson Guedes</a>
+            <a href="https://github.com/ailsonguedes" target="_blank">Powered By Ailson Guedes</a>
         </div>
     </body>
 </html>
