@@ -1,8 +1,12 @@
 <title>QR Code Generator</title>
 
+
 <div class="header-div">
+    <a href='{{ url_for( 'mainPage') }}';>
+        <img class= "logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="qrlogo" style="width:80px;height:80px;">
+    </a>
     <form class="buttonsHeaderF1" action="/" method="GET">
-        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="qrlogo" style="width:80px;height:80px;">
+        <h1></h1><br>
         <button class="buttonHeader1" type="button" onClick="window.location.href='{{ url_for( 'docs') }}';">Documentation</button>
         <button class="buttonHeader2" type="button">Donate</button>
         <button class="buttonHeader4" type="button" onclick="window.location.href='{{ url_for( 'gitPage') }}';">GitHub</button>

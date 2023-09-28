@@ -28,9 +28,12 @@ body {
   background-color: #CFD2CD;
 }
 
-img{
+.logo{
+  position: fixed;
   text-align: left;
-  margin-top: 5px;
+  text-align: initial;
+  bottom: 5;
+  margin-top: 0px;
   margin-left: 5px;
 }
 
