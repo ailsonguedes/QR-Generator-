@@ -35,6 +35,9 @@ h1{
 }
 
 .divDocAll{
+  position: static;
+  margin-top: 5%;
+  margin-bottom: 10%;
   text-align: center;
 }
 
@@ -47,14 +50,12 @@ h1{
 
 .h2d {
   color: #252E54;
-  margin-bottom: 0px;
-  margin-top: 2px;
 }
 
 .h3 {
   color: #252E54;
   text-align: left;
-  margin-bottom: 0%;
+  top: 5%;
 }
 
 .buttonsHeaderF1{
@@ -146,7 +147,7 @@ h1{
   top: 5%;
   right: 5%;
   display: inline-block;
-  padding: 10px 20px;
+  padding: 5px 10px;
   background-color: #E4572E; /* Cor de fundo */
   color: #FBFBF2; /* Cor do texto */
   text-decoration: none; /* Remova sublinhado padrão em links */

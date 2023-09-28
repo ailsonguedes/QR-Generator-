@@ -1,0 +1,21 @@
+{% extends "model-page.html" %}
+
+{% block body_classes %}contact{% endblock %}
+{% block content %}
+
+<div class="divDocAll">
+
+    <form class="buttonsHeaderF2" action="/" method="GET"> 
+        <button class="buttonReturn" type="button" onClick="window.location.href='{{ url_for( 'mainPage') }}';">Return</button> 
+    </form>
+
+    <h2 class="h2d">Contact</h2>
+
+    <div class="divDocInfo"> 
+        <h3>📧 E-mail</h3>
+            <p1>ailsonsixseven@gmail.com</p1><br>
+        <h3>🤝 LinkedIn</h3>
+            <a href="https://www.linkedin.com/in/ailson-guedes-059795149/" target="_blank">Ailson Guedes</a><br>
+
+</div>   
+{% endblock %}

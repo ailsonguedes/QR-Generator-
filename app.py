@@ -44,6 +44,10 @@ def index():
 def docs():
     return render_template('docs.html')
 
+@app.route('/contact/', methods=['GET'])
+def contact():
+    return render_template('contact.html')
+
 @app.route('/github/', methods=['GET'])
 # func to redirect to a external link using GitHub button on page
 def gitPage():
@@ -52,3 +56,4 @@ def gitPage():
 # Call main aplication
 if __name__ == '__main__':
     app.run(debug=True)
+    
