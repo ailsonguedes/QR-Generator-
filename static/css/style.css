@@ -28,10 +28,10 @@ body {
   background-color: #CFD2CD;
 }
 
-h1{
+img{
   text-align: left;
-  margin-top: 0px;
-  color: #29335C;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 
 .divDocAll{
@@ -60,6 +60,8 @@ h1{
 
 .buttonsHeaderF1{
     margin-bottom: 50%;
+    margin-right: 15%;
+    margin-left: 10%;
     text-align: center;
 }
 
