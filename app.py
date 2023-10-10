@@ -48,6 +48,10 @@ def docs():
 def contact():
     return render_template('contact.html')
 
+@app.route('/blog/', methods=['GET'])
+def blog():
+    return render_template('blog.html')
+
 @app.route('/github/', methods=['GET'])
 # func to redirect to a external link using GitHub button on page
 def gitPage():

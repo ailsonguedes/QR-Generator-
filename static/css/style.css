@@ -147,6 +147,25 @@ body {
   text-align: right;
 }
 
+.blog-post-item {
+  position: static;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0.0625rem solid rgba(243,247,250,.05);
+    border-top-color: rgba(243, 247, 250, 0.05);
+    border-right-color: rgba(243, 247, 250, 0.05);
+    border-bottom-color: rgba(243, 247, 250, 0.05);
+    border-left-color: rgba(243, 247, 250, 0.05);
+  border-radius: 0.5rem;
+  box-shadow: 1rem 1rem 1rem rgba(18,38,63,.03) !important;
+  border-color: #eaedf2;
+  padding: 1.5rem !important;
+}
+
 .buttonReturn{
   position: fixed;
   top: 5%;
@@ -218,5 +237,3 @@ input {
   font-weight: bold;
   color: #252E54;
 }
-
-

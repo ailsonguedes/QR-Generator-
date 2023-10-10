@@ -1,0 +1,23 @@
+{% extends "model-page.html" %}
+
+{% block body_classes %}blog{% endblock %}
+{% block content %}
+
+<div class="divDocAll">
+
+    <form class="buttonsHeaderF2" action="/" method="GET"> 
+        <button class="buttonReturn" type="button" onClick="window.location.href='{{ url_for( 'mainPage') }}';">Return</button> 
+    </form>
+
+    <h2 class="h2d">Blog</h2>
+    <div class="blog-post-item">
+        <div class="featured-image"> 
+            <img class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+            width="1150" height="780" src="https://s2-techtudo.glbimg.com/SPTIM5q9KkG5MLxPMwaLufBqXkc=/663x513:4359x3180/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2022/M/o/s8x0TvScmzawZzWhtZVw/proxyclick-visitor-management-system-epek7w5eeic-unsplash.jpg"
+            >
+        </div>
+        
+    </div>
+
+</div>   
+{% endblock %}

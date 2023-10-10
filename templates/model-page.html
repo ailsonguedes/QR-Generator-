@@ -5,12 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-
+        
         <head class="header">
             {% include "model-header.html" %}
         </head>
         <body class="{% block body_classes %}{% endblock %}">
-
             {% block content %} {% endblock %}
             <footer class="footer">
                 {% include "model-footer.html" %}
